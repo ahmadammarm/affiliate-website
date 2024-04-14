@@ -206,9 +206,35 @@ SHOWCASE
   position: relative;
   color: white;
   height: 60vh;
-  background: center center/cover;
+  background: url('/images/carousel-background/furniture.jpg') center center/cover;
   scroll-snap-align: start;
 }
+
+.showcase:nth-child(1) {
+  background: url('/images/carousel-background/furniture.jpg') center center/cover;
+}
+
+.showcase:nth-child(2) {
+  background: url('/images/carousel-background/fitness.jpg') center center/cover;
+}
+
+.showcase:nth-child(3) {
+  background: url('/images/carousel-background/smartwatch.jpg') center center/cover;
+}
+
+.showcase:nth-child(4) {
+  background: url('/images/carousel-background/kosmetik.jpg') center center/cover;
+}
+
+.showcase:nth-child(5) {
+  background: url('/images/carousel-background/handphone.jpg') center center/cover;
+}
+
+.showcase:nth-child(6) {
+  background: url('/images/carousel-background/food.jpg') center center/cover;
+}
+
+
 
 .showcase::before {
   content: "";
@@ -272,7 +298,7 @@ SHOWCASE
   color: white;
   cursor: pointer;
   outline: none;
-  z-index: 2; /* Ensure arrows are above the images */
+  z-index: 2;
 }
 
 .arrow.left {
